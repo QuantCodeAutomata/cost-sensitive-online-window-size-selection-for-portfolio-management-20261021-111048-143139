@@ -1,0 +1,197 @@
+[
+  {
+    "tag": "exp4a_shift25pct",
+    "n_assets": 32,
+    "T": 2000,
+    "windows": [
+      5,
+      10,
+      21,
+      63
+    ],
+    "regime_break": 500,
+    "K": 91,
+    "hedge_cumulative_regret_final": 0.7440958848311912,
+    "fs_cumulative_regret_final": 0.7467578411317328,
+    "hedge_tracking_regret_final": 0.7440958848311912,
+    "fs_tracking_regret_final": 0.7467578411317328,
+    "hedge_performance": {
+      "label": "Hedge",
+      "cumulative_return": 16.46013870629656,
+      "max_drawdown": 0.07029731245876308,
+      "sharpe": 3.729971289921598,
+      "final_value": 17.46013870629656
+    },
+    "fs_performance": {
+      "label": "Fixed Share",
+      "cumulative_return": 16.41299121806566,
+      "max_drawdown": 0.07011791542311803,
+      "sharpe": 3.72430532849164,
+      "final_value": 17.41299121806566
+    },
+    "hedge_final_expert_q": [
+      0.26399942228359763,
+      0.2529309358583996,
+      0.24280662351352883,
+      0.240263018344474
+    ],
+    "fs_final_expert_q": [
+      0.25064215868238915,
+      0.25023970728996286,
+      0.24942321109510862,
+      0.24969492293253936
+    ],
+    "hedge_post_regime_expert_q": [
+      0.24073570013909387,
+      0.24717539750700548,
+      0.254886211845855,
+      0.25720269050804573
+    ],
+    "fs_post_regime_expert_q": [
+      0.24974017510193952,
+      0.2493873764097851,
+      0.2508925439655926,
+      0.24997990452268293
+    ],
+    "assumptions": {
+      "mu": 0.0005,
+      "alpha": 0.3,
+      "sigma": 0.01,
+      "seed": 42,
+      "cov_regularization_lambda": 0.0001,
+      "w_0": "uniform (1/n)"
+    },
+    "shift_fraction": 0.25,
+    "break_day": 500
+  },
+  {
+    "tag": "exp4a_shift50pct",
+    "n_assets": 32,
+    "T": 2000,
+    "windows": [
+      5,
+      10,
+      21,
+      63
+    ],
+    "regime_break": 1000,
+    "K": 91,
+    "hedge_cumulative_regret_final": 0.2584974775132922,
+    "fs_cumulative_regret_final": 0.25309645294683225,
+    "hedge_tracking_regret_final": 0.2584974775132922,
+    "fs_tracking_regret_final": 0.25309645294683225,
+    "hedge_performance": {
+      "label": "Hedge",
+      "cumulative_return": 9.097386224885941,
+      "max_drawdown": 0.06871438683545598,
+      "sharpe": 3.009053349882914,
+      "final_value": 10.097386224885941
+    },
+    "fs_performance": {
+      "label": "Fixed Share",
+      "cumulative_return": 9.151596817604283,
+      "max_drawdown": 0.07011791653044744,
+      "sharpe": 3.0143828870577005,
+      "final_value": 10.151596817604283
+    },
+    "hedge_final_expert_q": [
+      0.24516426235322494,
+      0.24929435930129396,
+      0.25548414569020156,
+      0.2500572326552796
+    ],
+    "fs_final_expert_q": [
+      0.25064215868238915,
+      0.25023970728996286,
+      0.24942321109510862,
+      0.24969492293253936
+    ],
+    "hedge_post_regime_expert_q": [
+      0.23464678224633984,
+      0.24332990566655907,
+      0.2569135317996502,
+      0.26510978028745097
+    ],
+    "fs_post_regime_expert_q": [
+      0.24915413157984084,
+      0.25035996152355816,
+      0.2498708333832017,
+      0.2506150735133994
+    ],
+    "assumptions": {
+      "mu": 0.0005,
+      "alpha": 0.3,
+      "sigma": 0.01,
+      "seed": 42,
+      "cov_regularization_lambda": 0.0001,
+      "w_0": "uniform (1/n)"
+    },
+    "shift_fraction": 0.5,
+    "break_day": 1000
+  },
+  {
+    "tag": "exp4a_shift75pct",
+    "n_assets": 32,
+    "T": 2000,
+    "windows": [
+      5,
+      10,
+      21,
+      63
+    ],
+    "regime_break": 1500,
+    "K": 91,
+    "hedge_cumulative_regret_final": 0.7663360779648607,
+    "fs_cumulative_regret_final": 0.7780083651542611,
+    "hedge_tracking_regret_final": 0.7663360779648607,
+    "fs_tracking_regret_final": 0.7780083651542611,
+    "hedge_performance": {
+      "label": "Hedge",
+      "cumulative_return": 5.274381501931197,
+      "max_drawdown": 0.12875792531164187,
+      "sharpe": 2.3656367409821892,
+      "final_value": 6.274381501931197
+    },
+    "fs_performance": {
+      "label": "Fixed Share",
+      "cumulative_return": 5.201413641713929,
+      "max_drawdown": 0.13526795490998902,
+      "sharpe": 2.3498773734700102,
+      "final_value": 6.201413641713929
+    },
+    "hedge_final_expert_q": [
+      0.2315723201391434,
+      0.24320846512364006,
+      0.2603695757863475,
+      0.26484963895086916
+    ],
+    "fs_final_expert_q": [
+      0.2506421586816935,
+      0.2502397072896046,
+      0.24942321109474652,
+      0.2496949229339555
+    ],
+    "hedge_post_regime_expert_q": [
+      0.22648323515231655,
+      0.2381419723038267,
+      0.26427951036331493,
+      0.27109528218054185
+    ],
+    "fs_post_regime_expert_q": [
+      0.2488821880539297,
+      0.2503546056964772,
+      0.2509321608570919,
+      0.24983104539250123
+    ],
+    "assumptions": {
+      "mu": 0.0005,
+      "alpha": 0.3,
+      "sigma": 0.01,
+      "seed": 42,
+      "cov_regularization_lambda": 0.0001,
+      "w_0": "uniform (1/n)"
+    },
+    "shift_fraction": 0.75,
+    "break_day": 1500
+  }
+]

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.parquet
+*.pkl
+*.csv.tmp
+/data/raw/
+*.log
+data/djia_prices.pkl
+data/sp500_prices.pkl
